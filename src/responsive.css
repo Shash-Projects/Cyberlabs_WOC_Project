@@ -1,0 +1,217 @@
+
+
+
+
+
+@media only screen and (max-width: 970px){ 
+    .burger{
+        display: block;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.4s ease-out;
+        height: 100vh;
+    }
+    .navContain {
+         display: flex;
+         flex-direction: column;
+        /* text-align: center; */
+        margin: auto;
+        padding-left: 17vh;
+    }
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo {
+        width: 27%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 0px 45px;
+    }    
+    .nav-list li {
+        width: 50%;
+        list-style: none;
+        padding-top: 20px
+
+    }
+    .nav-resp{
+        height: 13vh;
+    }
+    .vis-resp{
+        opacity: 0;
+    }
+
+}
+@media only screen and (max-width: 450px){
+    .nav-resp{
+        height: 9vh;
+    }
+
+    .btn-sm{
+        margin-left: 6rem;
+        margin-top: 2px;
+    }
+    .btn-sm:hover{
+        margin-left: 6rem;
+        margin-top: 2px;
+    }
+    .nav-list li:hover {
+        width: 68%;
+        padding-left: 3px;
+    }
+    .logo img{
+        width: 102%;
+    }
+
+    .navContain{
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        margin: auto;
+        padding-left: 5vh;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        text-align: center;
+        padding-left: 7vh;
+        width: 85%;
+    }
+    .nav-list li {
+        width: 68%;
+    }
+
+    .right-box{
+        display: none;
+    }
+    .main-box {
+        height: 68vh;
+        display: flex;
+        /* color: white; */
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 11vh;
+        
+    }
+    .left-box {
+        width: 62%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .text-big {
+        font-size: 49px;
+        padding: 2.5rem 0rem 2rem 0rem;
+        
+    }  
+    .text-small {
+        font-size: 25px;
+        padding: 10px;
+        margin: 0px 2px 8px;
+        
+    }
+    .boxes{
+        height: 100%;
+        padding: 5px 23px;
+        background: rgb(234, 226, 226);
+        text-align: left;
+        border: 2px solid gray;
+        border-radius: 18px;
+        width: 100%;
+        margin: 17px 11px;
+    
+    }
+    .boxes:hover{
+        height: 100%;
+        padding: 5px 23px;
+        background: rgb(234, 226, 226);
+        text-align: left;
+        border: 2px solid gray;
+        border-radius: 18px;
+        width: 100%;
+        margin: 17px 11px;
+    
+    }
+    .out-con1 {
+        border: 2px solid black;
+        height: fit-content;
+        /* background: blue; */
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        /* align-items: center; */
+        text-align: center;
+        padding: 30px 2px;
+    }
+    .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 17px 30px;
+        flex-direction: column;
+        
+       
+    }
+    .section2{
+        background: rgba(57, 19, 57, 0.597);
+        height: fit-content;
+    }
+
+    .contact-img{
+        display: none;
+    }
+    .contact-form{
+        border: 2px solid #e8f0ea;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 1.5rem 0rem;
+        border-radius: 29px;
+    }
+
+    .form-input {
+        padding: 0.65rem 0.5rem;
+        width: 70%;
+        margin: 0.85rem;
+        border-radius: 9px;
+        border: 1px solid black;
+    }
+    .section3 {
+        height: 72vh;
+    }
+
+
+    .footer-col {
+        width: 90%;
+        padding: 0 15px;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .container2{
+        margin-left: 3rem;
+    }
+    .footer-col h4 {
+        font-size: 1.5rem;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin: 2rem 0rem;
+        font-weight: 500;
+        position: relative;
+    }
+    .footer {
+        background-color: #24262b;
+        padding: 3rem 0;
+    }
+}
